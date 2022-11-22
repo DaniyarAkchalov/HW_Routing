@@ -8,9 +8,11 @@ export default function FruitsContainer() {
   const { fruits } = useContext(Context);
   return (
     <div className={s.fruits_container}>
-      {fruits.map((el) => (
-        <Fruits {...el} key={el.id} />
-      ))}
+      {
+      fruits
+        .sort((a, b) => a.price - b.price)
+        .map(el => <Fruits key={el.id}{...el}  />
+        )}
     </div>
-  );
-}
+     ) };
+

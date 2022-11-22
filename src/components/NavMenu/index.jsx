@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export default function NavMenu() {
   return (
     <div className={s.nav_menu}>
-      <Link to="/fruits_page">Fruits:</Link>
-      <Link to="/vegetables_page">Vegetables:</Link>
+      <Link to="/fruits_page">Fruits</Link>
+      <Link to="/vegetables_page">Vegetables</Link>
     </div>
   );
 }

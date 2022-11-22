@@ -1,5 +1,7 @@
 .fruits_card{
     border:  3px solid red;
+    color: white;
+    background-color: red;
     border-radius: 20px;
     padding: 10px;
     font-size: x-large;
